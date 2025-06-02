@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { Error } from "../interfaces/error";
 import { handleHTTP } from "../utils/error.handle";
 import model from '../models/category'
-import { Prisma } from "../../prisma/generated/client";
+import { Prisma } from "@prisma/client";
 
 declare global {
   namespace Express {

@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import model from '../models/auth';
 import { handleHTTP } from '../utils/error.handle';
-import { Prisma } from "../../prisma/generated/client";
+import { Prisma } from "@prisma/client";
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { Error } from '../interfaces/error';
